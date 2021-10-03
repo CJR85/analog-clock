@@ -79,3 +79,33 @@ body {
   position: absolute;
   border-radius: 50%;
 }
+
+.hr::before {
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 80px;
+  background-color: #e8505b;
+  z-index: 10;
+  border-radius: 6px 6px 0 0;
+}
+
+.mn::before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 90px;
+  background-color: #f3ecc2;
+  z-index: 11;
+  border-radius: 6px 6px 0 0;
+}
+
+.sc::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 150px;
+  background-color: #14b1ab;
+  z-index: 12;
+  border-radius: 6px 6px 0 0;
+}
